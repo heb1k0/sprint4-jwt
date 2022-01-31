@@ -3,15 +3,15 @@
 
 ## Routes
 
-POST /players: create a player
-PUT /players: modifies the player's name
-POST /players/{id}/games: a specific player makes a roll
-DELETE /players/{id}/games: deletes the player's rolls
-GET /players: returns the list of all players in the system with their success rate
-GET /players/{id}/games: returns the list of games by a player.
-GET /players/ranking: returns the success percentage of the set of all players.
-GET /players/ranking/loser: returns the player with the lowest success percentage.
-GET /players/ranking/winner: returns the player with the highest exit percentage
+-POST /players: create a player
+-PUT /players: modifies the player's name
+-POST /players/{id}/games: a specific player makes a roll
+-DELETE /players/{id}/games: deletes the player's rolls
+-GET /players: returns the list of all players in the system with their success rate
+-GET /players/{id}/games: returns the list of games by a player.
+-GET /players/ranking: returns the success percentage of the set of all players.
+-GET /players/ranking/loser: returns the player with the lowest success percentage.
+-GET /players/ranking/winner: returns the player with the highest exit percentage
 
 Translated with www.DeepL.com/Translator (free version)
 
@@ -57,4 +57,5 @@ RUN MYSQL AND RUN NODEJS
 npm run start
 
 ## POSTMAN FILE
-- [JSON POSTMAN](https://github.com/heb1k0/sprint4-jwt/blob/main/Sprint4-jwt.postman_collection/) 
+
+- [JSON-POSTMAN](https://github.com/heb1k0/sprint4-jwt/blob/main/Sprint4-jwt.postman_collection/) - POSTMAN
