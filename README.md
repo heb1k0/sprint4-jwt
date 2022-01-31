@@ -21,8 +21,6 @@
 
 -GET /players/ranking/winner: returns the player with the highest exit percentage
 
-Translated with www.DeepL.com/Translator (free version)
-
 ## Technology
 
 - [Nodejs](https://nodejs.org/en/) - adventurous I/O for the backend.
