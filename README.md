@@ -61,7 +61,7 @@ RUN MYSQL AND RUN NODEJS
 
 ````sh
 npm run start
-
+``````
 ## POSTMAN FILE
 
 - [JSON-POSTMAN](https://github.com/heb1k0/sprint4-jwt/blob/main/Sprint4-jwt.postman_collection/) - POSTMAN
