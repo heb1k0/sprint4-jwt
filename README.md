@@ -1,50 +1,60 @@
 
-# Node Initial Project
+# SPRINT 4.2 Node REST + DB + JWT IT-Academy
 
-### Project Structure
+## Routes
 
-Main structure of node.js project. Folders / files:
+POST /players: create a player
+PUT /players: modifies the player's name
+POST /players/{id}/games: a specific player makes a roll
+DELETE /players/{id}/games: deletes the player's rolls
+GET /players: returns the list of all players in the system with their success rate
+GET /players/{id}/games: returns the list of games by a player.
+GET /players/ranking: returns the success percentage of the set of all players.
+GET /players/ranking/loser: returns the player with the lowest success percentage.
+GET /players/ranking/winner: returns the player with the highest exit percentage
 
-- <b>\_\_tests__</b>. Tests folder. See [Jest Docs](https://jestjs.io/es-ES/docs/configuration) and [Chai Docs](https://www.chaijs.com/)
-- <b>app</b>:
-    - <b>config</b>
-    - <b>controllers</b>
-    - <b>crons</b>
-    - <b>middleware</b>
-    - <b>models</b>
-    - <b>routes</b>
-    - <b>tmp</b>
-    - <b>app.js</b>. Entry point.
-- <b>.env</b>. Environment descriptor. See [dotenv doc](https://www.npmjs.com/package/dotenv).
-- <b>.eslintrc</b>. Linter JS, static code analyzer. See [EsLint Docs](https://eslint.org/docs/user-guide/configuring/configuration-files).
-- <b>.prettierignore</b>. Code formatter. See [Prettier Config](https://prettier.io/docs/en/configuration.html) and [Prettier Ignore](https://prettier.io/docs/en/ignore.html).
-- <b>.ecosystem.config.js</b>. Process Manage at runtime. See [PM2 Docs](https://pm2.keymetrics.io/).
-- <b>package.json</b>.
+Translated with www.DeepL.com/Translator (free version)
 
-### Import project for use with WebStorm
+## Technology
 
-Follow the steps below:
-* Clone the project from the Github Platform. Execute:
-  ```
-  git clone [url project]
-  ```
-* Open the project downloaded.
-![Open Project](img/webstorm_open.png)
+- [Nodejs](https://nodejs.org/en/) - adventurous I/O for the backend.
+- [Express](https://expressjs.com/es/) - fast node.js network application framework [@tjholowaychuk].
+- [MYSQL](https://www.mysql.com/) - Database 
+- [Sequelize](https://sequelize.org/) - Mysql ORM
+
+## Installation
+
+The project requires [Node.js](https://nodejs.org/), and mysql to work.
+
+Install the dependencies and devDependencies and fix the server.
+Create an .env file in the root directory with the following code and fill in the configuration fields
 
 
-### Import project for use with Visual Studio Code
+```sh
+clone https://github.com/heb1k0/sprint4-jwt
+cd sprint4-jwt
+npm i
+```
 
-Follow the steps below:
-* Clone the project from the Github Platform. Execute:
-  ```
-  git clone [url project]
-  ```
-* Open the project downloaded.
-  ![Open Project](img/VSC_open.png)
+## Start
 
+Do you want to start the project?
 
-### Utilities
+Create an .env file in the root directory with the following code and fill out the configuration fields
 
-* [Node Developers Guide](https://nodejs.dev/learn)
-* **.gitignore file** configuration. See [Official Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files).
-* **Git branches**. See [Official Docs](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+````sh
+PORT=3000
+
+MYSQL_PORT=PORT_DB
+MYSQL_HOST=localhost
+MYSQL_USERNAME=USER_DB
+MYSQL_PASSWORD=PASSWORD_DB
+``````
+
+RUN MYSQL AND RUN NODEJS
+
+````sh
+npm run start
+
+## POSTMAN FILE
+- [JSON POSTMAN](https://github.com/heb1k0/sprint4-jwt/blob/main/Sprint4-jwt.postman_collection/) 
