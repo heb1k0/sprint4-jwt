@@ -1,5 +1,5 @@
 
-# SPRINT 4.2 Node REST + DB + JWT IT-Academy
+# SPRINT 4.2 Node REST + DB + JWT IT-Academy .
 
 ## Routes
 
